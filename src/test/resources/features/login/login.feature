@@ -2,6 +2,7 @@ Feature: Login Functionality
   As a Customer
   I want to login AskOmDch OnlineStore
   So that I can access my personalized data and preferences.
+
 Background:
   Given As I'm on the AskOmDch Landing page I navigate to account page
   Scenario Outline: Login Successfully
@@ -21,6 +22,6 @@ Background:
     Examples:
       | username     | password        | error_message                                                     |
       | invaliduser | Test@12345      | Error: The username invaliduser is not registered on this site. If you are unsure of your username, try your email address instead.         |
-      | fadi        | WrongPassword   | Error: The password you entered for the username fadi is incorrect. Lost your password?  |
+      | Assoumpta2       | WrongPassword   | Error: The password you entered for the username Assoumpta2  is incorrect. Lost your password?  |
 
 
